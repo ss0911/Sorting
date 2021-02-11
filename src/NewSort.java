@@ -1,6 +1,6 @@
 
 public class NewSort {
-	static void bubblesort(int[] arr) {  
+	static void newsort(int[] arr) {  
         int n = arr.length;  
         int x = 0;  
          for(int i=0; i < n; i++){  
@@ -24,7 +24,7 @@ public class NewSort {
         }  
         System.out.println();  
           
-        bubblesort(arr);
+        newsort(arr);
          
         System.out.println("Array After Sorting:");  
         for(int i=0; i < arr.length; i++){  
